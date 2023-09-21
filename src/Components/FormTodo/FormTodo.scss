@@ -1,0 +1,19 @@
+.Form{
+    margin-bottom: 20px;
+    .input{
+        width: 230px;
+        height: 35px;
+        margin-right: 20px;
+        border: none;
+    }
+    .add{
+        height: 35px;
+        width: 80px;
+        border: none;
+        background-color: #740c55;
+        cursor: pointer;
+    }
+    .add:hover{
+        background-color: #740c5558;
+    }
+}

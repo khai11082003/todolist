@@ -1,0 +1,40 @@
+.WrapperData{
+    list-style-type: none;
+    padding: 0px;
+    .inner-List{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        margin-bottom: 10px;
+        .button{
+            display: flex;
+        button{
+            width: 30%;
+            height: 35px;
+            background-color: #740c55;
+            cursor: pointer;
+            border: none;
+            margin-right: 4px;
+            border-radius:3px ;
+        }
+        button:hover{
+            background-color: #740c5558;
+        }
+        input{
+            width: 30%;
+            height: 35px;
+            background-color: #740c55;
+            cursor: pointer;
+            border: none;
+            width: 40%;
+            display: flex;
+            justify-content: center;
+            border-radius:3px ;
+        }
+        input:hover{
+            background-color: #740c5558;
+        }
+        }
+
+    }
+}

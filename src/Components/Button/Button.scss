@@ -1,0 +1,14 @@
+.inner-Button{
+    display: flex;
+    justify-content: space-between;
+    button{
+        width: 30%;
+        height: 35px;
+        background-color: #740c55;
+        cursor: pointer;
+        border: none;
+    }
+    button:hover{
+        background-color: #740c5558;
+    }
+}
